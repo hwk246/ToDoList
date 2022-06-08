@@ -1,0 +1,86 @@
+h1 {
+  margin-left: 55px;
+}
+
+.input-field {
+  margin-bottom: 20px;
+}
+
+.input-field .task-input-field {
+  height: 2em;
+  width: 400px;
+  margin-left: 55px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.input-field .add-btn {
+  height: 47px;
+  width: 65px;
+  margin-left: 10px;
+  background: #3c769c;
+  color: white;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.input-field .add-btn:hover {
+  -webkit-box-shadow: 1px 1px 10px 0px lightgray;
+          box-shadow: 1px 1px 10px 0px lightgray;
+}
+
+.todo-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.todo-items li {
+  border-radius: 5px;
+  border: 1px solid gray;
+  width: 500px;
+  list-style: none;
+  height: 3em;
+  margin-top: 20px;
+}
+
+.todo-items li input.checkbox {
+  margin: 18px 0 0 18px;
+}
+
+.todo-items li input.task-update {
+  margin-left: 20px;
+  font-size: 20px;
+  border: none;
+}
+
+.todo-items li input.task-update.doorhalen {
+  text-decoration: line-through;
+}
+
+.todo-items li img.picture {
+  height: 35px;
+  float: right;
+  margin-right: 18px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.todo-items li img.editor {
+  height: 38px;
+  float: right;
+  margin-right: 18px;
+  margin-top: 6px;
+  visibility: hidden;
+}
+
+.todo-items li img.editor.show {
+  visibility: visible;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
